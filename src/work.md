@@ -6,6 +6,6 @@ imageURL: https://images.unsplash.com/photo-1550399105-c4db5fb85c18?ixid=MXwxMjA
 layout: 'layouts/vanfeed.njk'
 eleventyNavigation:
   key: campervan
-  title: campervan
+  title: 🚐 campervan
 ---
 
