@@ -15,4 +15,4 @@ eleventyNavigation:
   title: 🏠 Home
   order: 1
 ---
-A notebook of sorts. Let's put a pin in everything. 
+Reisen mit dem Bups. Wir lassen uns überraschen. 
