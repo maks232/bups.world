@@ -118,9 +118,9 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginNavigation);
 
   // Returns work items, sorted by display order
-  eleventyConfig.addCollection('van', collection => {
+  eleventyConfig.addCollection('journey', collection => {
     return sortByDisplayOrder(
-        collection.getFilteredByGlob('./src/van/*.md'));
+        collection.getFilteredByGlob('./src/journey/*.md'));
   });
 
   // Returns a collection of blog posts in reverse date order

@@ -21,9 +21,9 @@ collections:
       - {label: "Featured Image", name: "imageURL", widget: "image"}
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "Van" # Used in routes, e.g., /admin/collections/blog
-    label: "Van" # Used in the UI
-    folder: "Van" # The path to the folder where the documents are stored
+  - name: "journey" # Used in routes, e.g., /admin/collections/blog
+    label: "journey" # Used in the UI
+    folder: "journey" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
